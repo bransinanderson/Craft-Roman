@@ -8,7 +8,7 @@ Installation
 ------------
 1. Unzip file 
 2. Place "roman" directory into your craft/plugins directory
-3. Install plugin in Craft under Settings > Plugins
+3. Install plugin in the Craft Control Panel under Settings > Plugins
 
 Examples
 ------------
