@@ -14,10 +14,13 @@ Examples
 ------------
 
 Get roman numeral of current year
-  {{ craft.roman.getRoman(now.year) }}
+
+    {{ craft.roman.getRoman(now.year) }}
 
 Get roman numeral of number 10
-  {{ craft.roman.getRoman(10) }}
+
+    {{ craft.roman.getRoman(10) }}
 
 Get number from roman numeral
-  {{ craft.roman.getNumber('MMXIII') }}
+
+    {{ craft.roman.getNumber('MMXIII') }}
