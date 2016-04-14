@@ -5,7 +5,7 @@ class RomanVariable
 {
 	function __construct()
 	{
-		$this->result = false;
+		$this->result = "";
 		
 		$this->romans = array(
 		'M' => 1000,
@@ -32,6 +32,7 @@ class RomanVariable
 	*/
 	function getRoman($number)
 	{
+		$this->result = null;
 		foreach($this->romans as $key => $value)
 		{
 			$matches = intval($number / $value);
@@ -49,6 +50,7 @@ class RomanVariable
 	*/
 	function getNumber($roman)
 	{
+		$this->result = null;
 		foreach($this->romans as $key => $value)
 		{
 			while (strpos($roman, $key) === 0)
